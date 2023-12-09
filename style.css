@@ -264,14 +264,24 @@ body {
 }
 
 .info-box._2 {
-  background-image: linear-gradient(to right, #05090f, #05090f);
+  background-color: #0d1733 !important;
+  background-image: none;
+  /* box-shadow: inset 0 39px 56px -56px rgb(255 255 255 / 25%),
+    inset 0 7px 21px 0 rgb(255 255 255 / 20%),
+    inset 0 -82px 68px 0 rgb(96 68 144 / 18%),
+    inset 0 -98px 100px -108px rgb(202 172 255 / 10%),
+    inset 0 4px 18px 0 rgb(185 182 207 / 62%),
+    inset 0 1px 40px 0 rgb(195 192 214 / 15%) !important; */
+  display: flex;
+  box-shadow: #00eef6 1px 0px 15px;
+  /* background-image: linear-gradient(to right, #05090f, #05090f); */
   border: 1px solid rgb(16, 90, 63);
-  box-shadow: inset 0 39px 56px -56px rgb(255 255 255 / 25%),
+  /* box-shadow: inset 0 39px 56px -56px rgb(255 255 255 / 25%),
     inset 0 7px 21px 0 rgb(255 255 255 / 20%),
     inset 0 -82px 68px 0 rgb(96 68 144 / 18%),
     inset 0 -98px 100px -108px rgb(202 172 255 / 10%),
     inset 0 4px 18px 0 rgb(154 146 210 / 15%),
-    inset 0 1px 40px 0 rgb(227 222 255 / 15%) !important;
+    inset 0 1px 40px 0 rgb(227 222 255 / 15%) !important; */
   border-radius: 20px;
   flex-direction: row;
   align-items: center;
